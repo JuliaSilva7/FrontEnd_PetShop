@@ -162,6 +162,83 @@ body{
     background-size: cover;
 }
 
+#homer {
+    padding-left: 20px;
+    padding-right: 50px;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: justify; /* Alinha o texto justificado */
+    line-height: 1.6; /* Define a altura da linha para melhor legibilidade */
+    color: #333; /* Define a cor do texto */
+}
+
+
+/*#sobre-imagens{
+    margin-left: 100px;
+    cursor: pointer;
+   
+
+}*/
+
+#sobre-imagens {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 190px;
+}
+
+#sobre-imagens div {
+    flex: 0 0 auto;
+    width: 30%;
+    margin-right: -30px; /* Reduz a margem à direita */
+}
+
+#sobre-imagens div:last-child {
+    margin-right: 170px;
+}
+
+#sobre-imagens img {
+    width: 80%; /* Define a largura das imagens para 80% */
+   
+}
+
+#esp-sobre1, #esp-sobre2, #esp-sobre3 {
+    transition: transform 0.3s ease;
+}
+
+#esp-sobre1:hover, #esp-sobre2:hover, #esp-sobre3:hover {
+    transform: scale(1.1);
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+    margin-right: 60px;
+    color: #815050;
+    font-weight: bold;
+}
+h3{
+    margin-top: 15px;
+    text-align: center;
+    margin-right: 60px;
+    color: rgb(80, 80, 80); 
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
 
 footer {
     /*background-color: #333;*/
