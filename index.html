@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Incluindo o CSS do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Incluindo o seu arquivo CSS personalizado -->
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <!-- Ícone da guia -->
+    <link rel="shortcut icon" href="./assets/img/Icon.png">
+    <title>PetMania</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="./assets/img/Logo.png" alt="Logo">
+        </a>
+        <!-- Barra de Navegação -->
+        <nav class="navbar">
+            <ul>
+                <li class="dropdown">
+                    <a href="#homer">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="produtos.html">Produtos</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Ração</a></li>
+                        <li><a href="#">Beleza e Limpeza</a></li>
+                        <li><a href="#">Brinquedos</a></li>
+                        <li><a href="#">Casas e Tocas</a></li>
+                        <li><a href="#">Petiscos</a></li>
+                        <li><a href="#">Roupas e acessórios</a></li>
+                        <li><a href="#">Coleiras e Guias</a></li>
+                        <li><a href="#">Medicamentos</a></li>
+                        <li><a href="#">Transporte</a></li>
+                    </ul>
+                    <!-- Submenu de Vinhos -->
+                </li>
+                <li class="dropdown">
+                    <a href="pets.html">Pets</a>
+                    <!-- Submenu de Receitas Doces e Salgados -->
+                    <ul class="dropdown-content">
+                        <li><a href="#">Cachorros</a></li>
+                        <li><a href="#">Gatos</a></li>
+                        <li><a href="#">Passáros</a></li>
+                        <li><a href="#">Roedores</a></li>
+                        <li><a href="#">Peixes</a></li>
+                        <li><a href="#">Outros</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="sobre.html">Sobre</a></li>
+                <!-- Submenu de Harmonização -->
+                <li class="dropdown"><a href="#fundodiv">Contato</a></li>
+                <!-- Submenu de Contatos -->
+            </ul>
+        </nav>
+        <!-- Ícones -->
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        </div>
+        <!-- Formulário de busca -->
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+    <!-- Conteúdo principal de Apresentação da Página -->
+    <div id="homer">
+        <img src="./assets/img/0.png" alt="Adega">
+        <p>Na PetMania, nosso compromisso é com o bem-estar e felicidade dos seus animais de estimação. Desde a sua fundação, buscamos oferecer serviços e produtos de alta qualidade para atender às necessidades de todos os tipos de pets, desde os mais peludos até os mais escamosos.</p>
+    </div>
+    <!-- Rodapé -->
+    <footer>
+        <div id="fundodiv">
+            <!-- Informações de contato -->
+            <div class="footer-col">
+                <h4>Horário de funcionamento</h4>
+                <ul>
+                    <li><a href="#">Segunda à Sábado</a></li>
+                    <li><a href="#">das 8h às 19:00</a></li>
+                </ul>
+            </div>
+            <!-- Responsáveis pelo Site-->
+            <div class="footer-col">
+                <h4>Entre em contato</h4>
+                <ul>
+                    <li><a href="#">Whatsapp (11) 99999-9999</a></li>
+                    <li><a href="#">PetMania@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Endereço</h4>
+                <ul>
+                    <li><a href="#">Avenida Algum Lugar, 789 - Jardim</a></li>
+                    <li><a href="#">São Paulo, SP</a></li>
+                </ul>
+            </div>
+            <!-- Redes Sociais -->
+            <div class="footer-col">
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <!-- Direitos autorais -->
+                <div>
+                    <p class="direitos">Copyright @ 2024 - PetMania - Todos os direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
