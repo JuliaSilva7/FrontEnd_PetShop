@@ -40,7 +40,7 @@
                 </li>
                 <li class="dropdown">
                     <a href="pets.html">Pets</a>
-                    <!-- Submenu de Receitas Doces e Salgados -->
+                    <!-- Submenu-->
                     <ul class="dropdown-content">
                         <li><a href="#">Cachorros</a></li>
                         <li><a href="#">Gatos</a></li>
@@ -51,11 +51,15 @@
                     </ul>
                 </li>
                 <li class="dropdown"><a href="sobre.html">Sobre</a></li>
-                <!-- Submenu de Harmonização -->
+                <!-- Submenu -->
                 <li class="dropdown"><a href="#fundodiv">Contato</a></li>
                 <!-- Submenu de Contatos -->
             </ul>
         </nav>
+
+       
+        
+        
         <!-- Ícones -->
         <div class="icons">
             <div class="fas fa-search" id="search-btn"></div>
@@ -68,8 +72,12 @@
         </div>
     </header>
     <!-- Conteúdo principal de Apresentação da Página -->
+    <section id="banner">
+      <img id="imgBanner">
+    </section>
+    
     <div id="homer">
-        <img src="./assets/img/0.png" alt="Adega">
+        
         <p>Na PetMania, nosso compromisso é com o bem-estar e felicidade dos seus animais de estimação. Desde a sua fundação, buscamos oferecer serviços e produtos de alta qualidade para atender às necessidades de todos os tipos de pets, desde os mais peludos até os mais escamosos.</p>
     </div>
     <!-- Rodapé -->
@@ -88,7 +96,7 @@
                 <h4>Entre em contato</h4>
                 <ul>
                     <li><a href="#">Whatsapp (11) 99999-9999</a></li>
-                    <li><a href="#">PetMania@gmail.com</a></li>
+                    <li><a href="#">petmania@gmail.com</a></li>
                 </ul>
             </div>
             <div class="footer-col">
@@ -107,11 +115,37 @@
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
                 <!-- Direitos autorais -->
+                <div class="container">
+                    <div class="footer-contact">
+                        <h3>Entre em Contato</h3>
+                        <form action="dados.html" method="post">
+                        <!--<form action="#" method="post">-->
+                            <div class="form-group">
+                                <label for="name">Nome:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem:</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+               
                 <div>
                     <p class="direitos">Copyright @ 2024 - PetMania - Todos os direitos reservados</p>
                 </div>
             </div>
         </div>
+        <div>
     </footer>
+
+    <!--JAVASCTIPT EXTERNO-->
+    <script src="script.js"></script>
 </body>
 </html>
