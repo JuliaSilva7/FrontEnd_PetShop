@@ -120,6 +120,9 @@ body {
         visibility: visible;
         overflow-y: auto;
     }
+    #fundodiv{
+        height: 800px;
+    }
 
     #logo{
         width: 30%;
