@@ -22,5 +22,5 @@ function Menu(){
     navbar.classList.toggle("active")
 }
 /*evento que ao clicar vai chamar a função menu */
-btnMobile.addEventListener("click",Menu)
+btnMobile.addEventListener("click", Menu)
 

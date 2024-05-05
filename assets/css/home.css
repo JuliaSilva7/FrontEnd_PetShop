@@ -37,6 +37,8 @@
     body{
         margin: 0;
         padding: 0;
+        
+       
     }
     #div-banner{
         margin: 0;
@@ -72,6 +74,7 @@
         border:none;
         background: none;
         cursor: pointer;
+        color: black;
     }
     #navbar-ul{
         display: block;
@@ -83,6 +86,7 @@
         transition: 0.6s;
         visibility: hidden;
         overflow-y: hidden;
+        
     }
     #navbar-ul a{
         padding: 1rem 0;
@@ -91,6 +95,8 @@
         justify-content: center;
         align-items: center;
         border-bottom: 0px solid black;
+     
+        
     }
     nav.active #navbar-ul{
         height: calc(100vh - 70px);
@@ -133,4 +139,3 @@
     }
 
 } 
-
