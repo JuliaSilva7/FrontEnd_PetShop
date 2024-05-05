@@ -41,8 +41,18 @@
     #div-banner{
         margin: 0;
     }
+    #sobre-imagens{
+        margin: 10px;
+        padding: 0px;
+        display: block;
+        margin-top: 20px;
+
+    }
+    #sobre-imagens div{
+        width: 85%;
+    }
     #homer{
-        margin:0;
+        margin:10px;
         padding: 0;
         font-size: 2vh;
     }
