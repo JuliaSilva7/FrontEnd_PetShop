@@ -18,16 +18,20 @@
     <!-- Cabeçalho -->
     <header class="header">
         <a href="#" class="logo">
-            <img src="./assets/img/Logo.png" alt="Logo">
+            <img src="./assets/img/Logo.png" alt="Logo" id="logo">
         </a>
         <!-- Barra de Navegação -->
         <nav class="navbar">
-            <ul>
+            <button id="botaoMob">
+                <span id="hamburg"></span>
+            </button>
+
+            <ul id="navbar-ul">
                 <li class="dropdown">
-                    <a href="index.html">Home</a>
+                    <a href="#div-banner">Home</a>
                 </li>
                 <li class="dropdown">
-                    <a href="produtos.html">Produtos</a>
+                    <a href="#branco">Produtos</a>
                     <ul class="dropdown-content">
                         <li><a href="#">Ração</a></li>
                         <li><a href="#">Beleza e Limpeza</a></li>
@@ -42,7 +46,7 @@
                     <!-- Submenu de Vinhos -->
                 </li>
                 <li class="dropdown">
-                    <a href="pets.html">Pets</a>
+                    <a href="#animais">Pets</a>
                     <!-- Submenu-->
                     <ul class="dropdown-content">
                         <li><a href="#">Cães</a></li>
@@ -53,7 +57,7 @@
                         <li><a href="#">Outros</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="sobre.html">Sobre</a></li>
+                <li class="dropdown"><a href="#homer">Sobre</a></li>
                 <!-- Submenu -->
                 <li class="dropdown"><a href="#fundodiv">Contato</a></li>
                 <!-- Submenu de Contatos -->
@@ -74,12 +78,18 @@
             <label for="search-box" class="fas fa-search"></label>
         </div>
     </header>
+
+
     <!-- Conteúdo principal de Apresentação da Página -->
+    <div id="div-banner">
     <section id="banner">
       <img id="imgBanner">
     </section>
+    </div>
 
-    <h1>Sobre Nós</h1>
+
+    <div id="div-sobre">
+    <h1 id="h1sobre">Sobre Nós</h1>
 
     <div id="homer">
         <p>Na PetMania, nosso compromisso é com o bem-estar e felicidade dos seus animais de estimação. Desde a sua fundação, buscamos oferecer serviços e produtos de alta qualidade para atender às necessidades de todos os tipos de pets, desde os mais peludos até os mais escamosos.</p>
@@ -103,11 +113,12 @@
 <div id="esp-sobre3">
     <img src="assets/img/sobreimg3.png" alt="">
     <h2>Especialidades</h2>
-    <h3>Contamos com profissionais altamente qualificados em diversas áreas da Medicina Veterinária, tais como: cardiologia, anestesiologia, oncologia e outros.</h3>
+    <h3>Contamos com profissionais altamente qualificados em diversas áreas da Medicina Veterinária, tais como: cardiologia, anestesiologia e outros.</h3>
 </div>
     </div>
+</div>
 
-    
+    <div id="div-categorias">
     <div class="categoria-texto">
         <p id="categoria">Categorias</p>
     </div>
@@ -150,20 +161,22 @@
               </div>
         </div> 
     </section>
+</div>
 
-
+    <div id="div-produtos">
+    <p id="titulo-produtos">Produtos</p>
     <section id="branco">
         
     
         <div class="catalogo">
-            <img src="assets/img/MAX-CAES-SENIOR-RM-E-RG-FRANGO-E-ARROZ-FRONTAL-775x1024.png" alt=""/>
+            <img src="assets/img/Produtos/MAX-CAES-SENIOR-RM-E-RG-FRANGO-E-ARROZ-FRONTAL-775x1024.png" alt=""/>
             <p class="nomeproduto">Ração Seca Max</p>
             <p class="descricaoproduto">Para cães sênior</p>
             <button><a href="compra.html" class="cor-btn">R$ 177,56</a></button>
         </div>
     
         <div class="catalogo">
-            <img src="assets/img/Nutrive_Filhote_Medio_e_Grande_Porte__86658_std.png" alt=""/>
+            <img src="assets/img/Produtos/Nutrive_Filhote_Medio_e_Grande_Porte__86658_std.png" alt=""/>
             <p class="nomeproduto">Nutrive Select</p>
             <p class="descricaoproduto">Para cães filhotes</p>
             <button><a href="compra.html" class="cor-btn">R$ 169,88</a></button>
@@ -171,14 +184,14 @@
     
         <div class="catalogo">
             <img src="assets/img/racao1-cao.png" alt=""/>
-            <p class="nomeproduto">Ração Golden Premier</p>
+            <p class="nomeproduto">Ração Golden</p>
             <p class="descricaoproduto">Para cães adultos</p>
             <button><a href="compra.html" class="cor-btn">R$ 180,99</a></button>
         </div>
     
     
         <div class="catalogo">
-            <img src="assets/img/SD_Gold_Life_Lado_SemPeso__36998_std.png" alt=""/>
+            <img src="assets/img/Produtos/SD_Gold_Life_Lado_SemPeso__36998_std.png" alt=""/>
             <p class="nomeproduto">Ração Seca Especial</p>
             <p class="descricaoproduto">Para cães adultos</p>
             <button><a href="compra.html" class="cor-btn">R$ 110,00</a></button>
@@ -243,17 +256,11 @@
             <p class="descricaoproduto">Alimento Super Premium</p>
             <button><a href="compra.html" class="cor-btn">R$ 25,83</a></button>
         </div>
-
+    </div>
         
-    
-    
+
         
     </section>
-
-
-
-
-
 
 
 

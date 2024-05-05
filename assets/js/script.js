@@ -14,3 +14,13 @@ function slideShow() {
 
 slideShow();
 
+const btnMobile = document.querySelector("#botaoMob")
+
+function Menu(){
+    //Declarando a variavel e pegando o id
+    const navbar=document.querySelector("nav")
+    navbar.classList.toggle("active")
+}
+/*evento que ao clicar vai chamar a função menu */
+btnMobile.addEventListener("click",Menu)
+
