@@ -34,26 +34,48 @@
 }
 
 @media (max-width:500px){
-    body{
+body {
         margin: 0;
         padding: 0;
     }
-    #div-banner{
+    #div-banner {
         margin: 0;
+        padding: 0;
     }
-    #sobre-imagens{
-        margin: 10px;
-        padding: 0px;
+    #sobre-imagens {
+        margin: 10px auto;
+        padding: 0;
         display: block;
         margin-top: 20px;
-        text-align: center;
-
+        align-items: center;
+        text-align: center; 
     }
-    #sobre-imagens div{
+    #sobre-imagens div {
         width: 85%;
+        margin: 10px auto;
     }
-    #homer{
-        margin:10px;
+    #esp-sobre1, #esp-sobre2, #esp-sobre3 {
+        transition: none;
+    }
+    
+    #esp-sobre1:hover, #esp-sobre2:hover, #esp-sobre3:hover {
+        transform: none;
+    }
+    #esp-sobre1 h2, #esp-sobre2 h2, #esp-sobre3 h2{
+        margin: 10px 0px;
+    }
+    #esp-sobre1 h3, #esp-sobre2 h3, #esp-sobre3 h3{
+        margin: 10px 0px;
+    }
+    .imagens-animais {
+        margin: 20px 5px; 
+    }
+    #categoria{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #homer {
+        margin: 10px;
         padding: 0;
         font-size: 2vh;
     }
