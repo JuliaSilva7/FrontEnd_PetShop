@@ -4,7 +4,7 @@
 :root{
     --main-color: rgb(255, 200, 128);
     --black: #13131a;
-    --bg: #ffffff;
+    --bg: #fff89d
     --border: .1rem solid rgba(255,255,255,.3);
     font-family:  'Roboto', sans-serif;
 }
@@ -155,13 +155,6 @@ body{
     text-align: center;
 }
 
-<<<<<<< HEAD
-#div-banner{
-    background-color: #ffffff;
-    height: 89vh;
-}
-=======
->>>>>>> 61b2798ab2ea80e45818c327941ef7c4f5326242
 #imgBanner{
     width: 60%;
     margin-top: 10.5%;
@@ -194,32 +187,36 @@ body{
 
 #div-sobre{
     background-color: #fff89d;
-    height: 110vh;
     margin-top: -40px ;
     font-size: 80.5%;
+    text-align: center;
 }
 
 #sobre-imagens {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
     cursor: pointer;
-    margin-left: 190px;
+    text-align: center;
+    margin: 50px 100px;
+    padding: 30px;
 }
 
 #sobre-imagens div {
     flex: 0 0 auto;
     width: 30%;
     margin-right: -30px; /* Reduz a margem à direita */
-}
-
-#sobre-imagens div:last-child {
-    margin-right: 170px;
+    
 }
 
 #sobre-imagens img {
     width: 80%; /* Define a largura das imagens para 80% */
    
+}
+#esp-sobre1 h2, #esp-sobre2 h2, #esp-sobre3 h2{
+    text-align: center;
+}
+#esp-sobre1 h3, #esp-sobre2 h3, #esp-sobre3 h3{
+    text-align: center;
 }
 
 #esp-sobre1, #esp-sobre2, #esp-sobre3 {
@@ -230,6 +227,7 @@ body{
     transform: scale(1.1);
 }
 
+
 h1{
     text-align: center;
     margin-top: 40px;
@@ -238,7 +236,6 @@ h1{
 }
 h2{
     text-align: center;
-    margin-right: 60px;
     margin-top: 20px;
     color: #613a3a;
     font-weight: bolder;
@@ -247,7 +244,6 @@ h2{
 h3{
     margin-top: 15px;
     text-align: center;
-    margin-right: 60px;
     color: rgb(14, 14, 14); 
     line-height: 1.5;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
