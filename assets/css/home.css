@@ -28,11 +28,12 @@
     font-size: 20px;
 }
 
+
 #botaoMob{
     display: none;
 }
 
-@media (max-width:600px){
+@media (max-width:500px){
     #homer{
         margin:0;
         padding: 0;
