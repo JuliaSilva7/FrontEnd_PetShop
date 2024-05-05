@@ -63,6 +63,7 @@ body{
     color: var(--main-color);
     border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
+    background-color: #462B2B;
 }
 .header .icons div{
     color: #fff;
@@ -132,6 +133,7 @@ body{
 
 .dropdown:hover .dropdown-content {
     display: block;
+    background-color: #462B2B;
 }
 
 
