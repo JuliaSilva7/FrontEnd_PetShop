@@ -170,7 +170,6 @@ body{
 #homer {
     padding-left: 20px;
     padding-right: 50px;
-    font-size: 25px;
     margin-top: 40px;
     margin-left: 20px;
     text-align: justify; /* Alinha o texto justificado */
@@ -421,75 +420,82 @@ button:hover {
 	background-color: #ffffff;
  
 }
-#homer img{
-    padding-top: 180px;
-    width: 100%;
-    height: 100%;
-    margin-top: -70px;
-    background-size: cover;
-}
-
-#homer {
-    padding-left: 20px;
-    padding-right: 50px;
-    font-size: 25px;
-    margin-top: 40px;
-    margin-left: 20px;
-    text-align: justify; /* Alinha o texto justificado */
-    line-height: 1.6; /* Define a altura da linha para melhor legibilidade */
-    color: #333; /* Define a cor do texto */
+section{
+    min-height: 100vh;
 }
 
 
 
-#sobre-imagens {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    cursor: pointer;
-    margin-left: 190px;
-}
+.catalogo p{
+    font-family: 'Handlee', cursive;
 
-#sobre-imagens div {
-    flex: 0 0 auto;
-    width: 30%;
-    margin-right: -30px; 
 }
-
-#sobre-imagens div:last-child {
-    margin-right: 170px;
-}
-
-#sobre-imagens img {
-    width: 80%; 
-   
-}
-
-#esp-sobre1, #esp-sobre2, #esp-sobre3 {
-    transition: transform 0.3s ease;
-}
-
-#esp-sobre1:hover, #esp-sobre2:hover, #esp-sobre3:hover {
+.catalogo:hover{
     transform: scale(1.1);
 }
 
-h1{
+.nomeproduto{
+    font-size: 25px;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 10px;
+    color: #631111;
+    margin-top: 10px;
 }
-h2{
+.descricaoproduto{
+    font-size: 18px;
     text-align: center;
-    margin-right: 60px;
-    color: #815050;
-    font-weight: bold;
-}
-h3{
-    margin-top: 15px;
-    text-align: center;
-    margin-right: 60px;
-    color: rgb(80, 80, 80); 
-    line-height: 1.5;
+    color: #9a4d4d;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
+#branco{
+    padding-top: 60px;
+    width: 100%;
+    text-align: center;
+
+}
+.cor-btn{
+    color: #f8f8fc;
+}
+
+.catalogo{
+    width: 250px;
+    height: 380px;
+    background-color: #ffffff;
+    border-radius: 5%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.catalogo img{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.catalogo button{
+    /*display: block;*/
+    margin: auto;
+    padding: 5px 10px;
+    background-color: #220404;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    color: #bbbbbb;
+    font-size: 20px;
+    transition: transform 0.1s ease;
+    cursor: pointer;
+
+}
+
+.catalogo:hover button{
+    background-color: #22040499;
+    color:#000000b5;
+    transform: scale(1.05);
+}
 

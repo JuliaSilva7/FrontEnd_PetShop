@@ -33,6 +33,12 @@
 }
 
 @media (max-width:600px){
+    #homer{
+        margin:0;
+        padding: 0;
+        font-size: 2vh;
+    }
+
     #imgBanner{
         width: 100%;
     }
