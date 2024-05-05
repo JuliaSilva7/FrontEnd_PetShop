@@ -187,7 +187,7 @@ body{
 
 #div-sobre{
     background-color: #fff89d;
-    margin-top: -40px ;
+    margin-top: -100px ;
     font-size: 80.5%;
     text-align: center;
 }
@@ -252,7 +252,7 @@ h3{
 #div-categorias{
     background-color: #ffffff;
     padding-top: 1px;
-    margin-top: -5px;
+    margin-top: -50px;
 }
 
 #categoria{
