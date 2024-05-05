@@ -33,8 +33,11 @@
 }
 
 @media (max-width:600px){
+    #imgBanner{
+        width: 100%;
+    }
     #banner{
-        margin-top: 150px;
+        margin-top: 30px;
     }
     .icons{
         display: none;
@@ -42,7 +45,6 @@
     #botaoMob{
         display: flex;
         padding: 0.5rem 1rem;
-        font-size: 1rem;
         border:none;
         background: none;
         cursor: pointer;
@@ -77,23 +79,24 @@
         height: 50%;
         
     }
-    /*criando a linha de cima do menu*/
     #hamburg{
         display: block;
-        width: 20px;
-        border-top:2px solid;
+        width: 40px;
+        border-top: 3px solid;
+        border-radius: 5px;
+        
     }
-    /*criando as duas linhas do menu com pseudo-elements*/
 
     #hamburg::before,
     #hamburg::after{
         content:'';
         display:block;
         background: currentColor;
-        height: 2px;
-        margin-top: 5px;
+        height: 3px;
+        margin-top: 10px;
         transition:0.5s;
         position: relative;
+        border-radius: 6px;
     }
     /*ativando a rotação do menu(antes)*/
     nav.active #hamburg::before{
