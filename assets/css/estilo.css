@@ -526,4 +526,203 @@ button:hover {
 .catalogo:hover{
     background-color: #bd8c8c;
 }
+#animais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagens-animais {
+    width: 200px;
+    height: 200px;
+    margin: 50px 100px; 
+}
+
+.imagem-circular {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+#categoria{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.texto-animais{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#botaoMob{
+    display: none;
+}
+
+@media (max-width:500px){
+body {
+        margin: 0;
+        padding: 0;
+        
+    }
+    #div-banner {
+        margin: 0 ;
+        padding: 0;
+    }
+    #sobre-imagens {
+        margin: 10px auto;
+        padding: 0;
+        display: block;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center; 
+    }
+    #sobre-imagens div {
+        width: 85%;
+        margin: 10px auto;
+    }
+    #h1sobre {
+        font-size: 3vh;
+    }
+    #esp-sobre1, #esp-sobre2, #esp-sobre3 {
+        transition: none;
+    }
+    
+    #esp-sobre1:hover, #esp-sobre2:hover, #esp-sobre3:hover {
+        transform: none;
+    }
+    #esp-sobre1 h2, #esp-sobre2 h2, #esp-sobre3 h2{
+        margin: 10px 0px;
+    }
+    #esp-sobre1 h3, #esp-sobre2 h3, #esp-sobre3 h3{
+        margin: 10px 0px;
+    }
+    .imagens-animais {
+        margin: 20px 5px; 
+    }
+    #categoria{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #homer {
+        margin: 10px;
+        padding: 0;
+        font-size: 2vh;
+    }
+
+    #imgBanner{
+        width: 100%;
+        margin-top: 28.5%;
+    }
+
+    .icons{
+        display: none;
+    }
+    #botaoMob{
+        display: flex;
+        padding: 0.5rem 1rem;
+        border:none;
+        background: none;
+        cursor: pointer;
+        color: black;
+    }
+    #navbar-ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        top:50px;
+        right: 0px;
+        transition: 0.6s;
+        visibility: hidden;
+        overflow-y: hidden;
+        margin-top: 20px;
+        
+        
+    }
+    #navbar-ul a{
+        padding: 1rem 0;
+        margin: 0  1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 0px solid black;
+        color: black;
+        
+    }
+    nav.active #navbar-ul{
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    .dropdown{
+        display: block;
+        background-color: #631111;
+        margin: 0px 10px;
+        
+
+    }
+    #navbar-ul a{
+        color: white;
+        font-size: 20px;
+        
+    }
+    
+    #fundodiv{
+        height: 700px;
+        margin: 0;
+        padding: 10px;
+        padding-top: 30px;
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+    }
+    .footer-col .social-links a{
+        display: block;
+        text-align: center;
+     
+    }
+    .footer-col{
+        text-align: center;
+    }
+
+    #logo{
+        width: 30%;
+        height: 50%;
+        
+    }
+    #hamburg{
+        display: block;
+        width: 40px;
+        border-top: 3px solid;
+        border-radius: 5px;
+        
+    }
+
+    #hamburg::before,
+    #hamburg::after{
+        content:'';
+        display:block;
+        background: rgb(0, 0, 0);
+        height: 3px;
+        margin-top: 10px;
+        transition:0.5s;
+        position: relative;
+        border-radius: 6px;
+    }
+    /*ativando a rotação do menu(antes)*/
+    nav.active #hamburg::before{
+        transform: rotate(135deg);
+    }
+    /*ativando a rotação contraria (depois)*/
+    nav.active #hamburg::after{
+        transform:rotate(-135deg);
+        top:-7px;
+    }
+    
+    
+} 
 
