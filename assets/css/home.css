@@ -40,7 +40,7 @@ body {
         
     }
     #div-banner {
-        margin: 0;
+        margin: 0 ;
         padding: 0;
     }
     #sobre-imagens {
@@ -54,6 +54,9 @@ body {
     #sobre-imagens div {
         width: 85%;
         margin: 10px auto;
+    }
+    #h1sobre {
+        font-size: 3vh;
     }
     #esp-sobre1, #esp-sobre2, #esp-sobre3 {
         transition: none;
@@ -83,11 +86,9 @@ body {
 
     #imgBanner{
         width: 100%;
+        margin-top: 28.5%;
     }
-    #banner{
-        margin-top: 70px;
-        margin-bottom: -400px;
-    }
+
     .icons{
         display: none;
     }
@@ -150,6 +151,14 @@ body {
     footer{
         margin: 0;
         padding: 0;
+    }
+    .footer-col .social-links a{
+        display: block;
+        text-align: center;
+     
+    }
+    .footer-col{
+        text-align: center;
     }
 
     #logo{
