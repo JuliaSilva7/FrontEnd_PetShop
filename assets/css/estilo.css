@@ -53,7 +53,12 @@ body{
 .header .logo img{
     height: 8rem;
 }
-
+#logo{
+    margin-left:20px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
 .header .navbar a{
     margin:0 1rem;
     font-size: 1.6rem;
@@ -121,21 +126,6 @@ body{
     position: relative;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(27, 26, 27);
-    box-shadow: 0px 8px 16px 0px white;
-    list-style-type: none;
-    top: 100%;
-    left:0;
-    
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    background-color: #462B2B;
-}
 
 
 .dropdown a {
